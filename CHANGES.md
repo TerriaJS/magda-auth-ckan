@@ -2,3 +2,4 @@
 
 - Change the way of locate session-db secret to be compatible with Magda v1 (still backwards compatible with earlier versions)
 - Upgrade CI script
+- Avoid using .Chart.Name for image name 
