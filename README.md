@@ -1,6 +1,6 @@
 # magda-auth-ckan
 
-![Version: 1.2.0](https://img.shields.io/badge/Version-1.2.0-informational?style=flat-square)
+![Version: 1.2.1](https://img.shields.io/badge/Version-1.2.1-informational?style=flat-square)
 
 A Magda Authentication Plugin for [CKAN](https://ckan.org/).
 A login form will be shown to user to fill up username & password for authentication.
@@ -48,6 +48,10 @@ gateway:
 
 Kubernetes: `>= 1.14.0-0`
 
+| Repository | Name | Version |
+|------------|------|---------|
+| https://charts.magda.io | magda-common | 1.0.0-alpha.0 |
+
 ## Values
 
 | Key | Type | Default | Description |
@@ -71,7 +75,7 @@ Kubernetes: `>= 1.14.0-0`
 | defaultImage.pullPolicy | string | `"IfNotPresent"` |  |
 | defaultImage.repository | string | `"docker.io/data61"` |  |
 | global | object | `{"authPluginRedirectUrl":"/sign-in-redirect","externalUrl":"","image":{},"rollingUpdate":{}}` | only for providing appropriate default value for helm lint |
-| image | object | `{}` |  |
+| image.name | string | `"magda-auth-internal"` |  |
 | replicas | int | `1` | no. of initial replicas |
 | resources.limits.cpu | string | `"50m"` |  |
 | resources.requests.cpu | string | `"10m"` |  |
