@@ -1,6 +1,7 @@
 # v1.2.1
 
 - Use library chart "magda-common" & fix Magda v1 deployment issue on the first deployment
+- Fix incorrect default docker image name in v1.2.0
 
 # v1.2.0
 
