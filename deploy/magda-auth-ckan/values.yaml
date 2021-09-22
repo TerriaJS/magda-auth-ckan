@@ -63,7 +63,7 @@ autoscaler:
   targetCPUUtilizationPercentage: 80
 
 image: 
-  name: magda-auth-internal
+  name: magda-auth-ckan
   # -- other docker image settings could be 
   # repository: 
   # tag: 
