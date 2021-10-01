@@ -3,7 +3,7 @@ name: magda-auth-ckan
 description: |-
   A Magda Authentication Plugin for [CKAN](https://ckan.org/).
   A login form will be shown to user to fill up username & password for authentication.
-version: "1.2.1"
+version: "1.2.2"
 kubeVersion: ">= 1.14.0-0"
 home: "https://github.com/magda-io/magda-auth-ckan"
 sources: [ "https://github.com/magda-io/magda-auth-ckan" ]
