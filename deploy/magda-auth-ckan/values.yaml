@@ -62,16 +62,14 @@ autoscaler:
   maxReplicas: 3
   targetCPUUtilizationPercentage: 80
 
-image: {}
-  # -- default docker image name 
-  # name: 
+image: 
+  name: "magda-auth-ckan"
   # repository: 
   # tag: 
   # pullPolicy: 
   # imagePullSecret: 
 
 defaultImage:
-  name: magda-auth-ckan
   repository: docker.io/data61
   pullPolicy: IfNotPresent
   imagePullSecret: false
